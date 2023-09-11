@@ -1,3 +1,9 @@
+"""
+Word Guessing Game
+Ivan Zhuravel
+11/09/2023
+"""
+
 word = input("Please type in the word: ")
 print('The length of the word is', len(word))
 missing_word = list(len(word)*'*')
